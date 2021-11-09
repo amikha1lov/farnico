@@ -1,0 +1,8 @@
+@keyframes header-arrow {
+    0% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(6px);
+    }
+}
