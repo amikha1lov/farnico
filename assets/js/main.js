@@ -133,14 +133,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     scrollAnimation();
     // wordsAnimation();
-    our_missionAnimation();
+    // our_missionAnimation();
     // shouldCareScrollLock();
 
     window.addEventListener('scroll', (e) => {
         // shouldCareScrollLock();
         scrollAnimation();
         // wordsAnimation();
-        our_missionAnimation();
+        // our_missionAnimation();
         // shouldCareScrollLock(wheelDirection(e));
 
     });
