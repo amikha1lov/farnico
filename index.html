@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <title>Farnico</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 
 <header class="header">
 
-    <!-- Видео -->
     <video autoplay muted loop class="header__video">
         <source src="main.mp4" type="video/mp4">
     </video>
 
-    <!-- Необязательно: некоторый текст наложения для описания видео -->
     <div class="header__content">
         <div class="container">
             <div class="header__line">
@@ -35,6 +38,12 @@
                         </label>
                     </div>
                     <div class="menu__content">
+                        <div class="menu__content--close">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L15 15.0259" stroke="#9A9EA7" stroke-miterlimit="10" stroke-linecap="round"/>
+                                <path d="M1 15.0259L15 1" stroke="#9A9EA7" stroke-miterlimit="10" stroke-linecap="round"/>
+                            </svg>
+                        </div>
                         <nav class="header__navigation menu-header">
                             <ul class="menu-header__list">
                                 <li class="menu-header__item">
@@ -83,21 +92,25 @@
 <section class="company">
     <div class="company-container">
         <div class="container">
-               <div class="company-items">
-                   <div class="company-items__item">
-                       <span>Farnico</span> is an international Norwegian-owned private group of companies that grows and processes <span> organic, ethical cotton </span> in developing countries for the benefit of nature and humanity.
-                   </div>
-                   <div class="company-items__item">
-                       By partnering up with underserved, honest, and hardworking farmers, Farnico provides<span> 100%</span> certified organic, traceable, and ethical fibre.
-                   </div>
-                   <div class="company-items__item">
-                      <p> "Our loyal customers are proud to partake in Farnico's story of improving the quality of life of the people involved along the process, as well as giving back to nature"</p>
-                       <div class="company__ceo ceo-company">
-                           <img src="assets/img/ceo.png" alt="" class="ceo-company__image">
-                           <p class="ceo-company__title">Sergej Nicolaisen, <br>Farnico Founder</p>
-                       </div>
-                   </div>
-               </div>
+            <div class="company-items">
+                <div class="company-items__item">
+                    <span>Farnico</span> is an international Norwegian-owned private group of companies that grows and
+                    processes <span> organic, ethical cotton </span> in developing countries for the benefit of nature
+                    and humanity.
+                </div>
+                <div class="company-items__item">
+                    By partnering up with underserved, honest, and hardworking farmers, Farnico
+                    provides<span> 100%</span> certified organic, traceable, and ethical fibre.
+                </div>
+                <div class="company-items__item">
+                    <p> "Our loyal customers are proud to partake in Farnico's story of improving the quality of life of
+                        the people involved along the process, as well as giving back to nature"</p>
+                    <div class="company__ceo ceo-company">
+                        <img src="assets/img/ceo.png" alt="" class="ceo-company__image">
+                        <p class="ceo-company__title">Sergej Nicolaisen, <br>Farnico Founder</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -109,17 +122,33 @@
             <div class="should-care__overflow">
                 <h2 class="should-care__title">Why should YOU care?</h2>
                 <div class="should-care__text">
-                    <p>Today, we know that we are in a climate crisis. Already, the way our children experience the World's weather, food, the animal kingdom will be vastly poorer than we, our parents and especially grandparents, experienced.</p>
-                    <p>The pandemic, regular earthquakes, fires, droughts, and floods are some of the ways our planet is telling us that it would instead be rid of the human race. In the last 200 years, humans have done more damage to the Earth than our ancestors have in the last seven million years.</p>
-                    <p>This is largely down to the existing false industrial-era notion that the Earth consists of a pool of unlimited resources for humankind to exploit. Much of what we consume each day originates from the land, the source of all food and fashion items.</p>
-                    <p>However, the soil's long-term exposure to the chemicals, top-soil disturbance and poison has detrimental effects on its biodiversity and fertility. Like a drug addict, it cannot perform without its annual dosage, and its productivity is in freefall, where more drugs are always needed to match previous harvests' yields.</p>
-                    <p>Farmers, the traditional guardians of nature and soil, are also suffering under the chokehold of chemical-based farming</p>
-                    <p>Instead of being farmers, caring for the Earth and growing to the specific circumstances of their land, they have become like chemists in a pharmacy, buying and dispensing an ever-growing dosage of artificial minerals while at the same time being forced out of business due to rising prices and falling yields.</p>
-                    <p>So, conventional farming, apart from having a devastating effect on nature, fuels inequality and poverty in developing countries.</p>
-                    <p>While the consumer is unaware, underserved farmers grow our fruits, vegetables, grains, and natural fibres for our fast-fashion tastes. Unable to afford expensive nutrients or pesticides, not knowing an alternative, the once respected and independent farmers are facing diminishing returns and are forced to leave their lands or starve.</p>
+                    <p>Today, we know that we are in a climate crisis. Already, the way our children experience the
+                        World's weather, food, the animal kingdom will be vastly poorer than we, our parents and
+                        especially grandparents, experienced.</p>
+                    <p>The pandemic, regular earthquakes, fires, droughts, and floods are some of the ways our planet is
+                        telling us that it would instead be rid of the human race. In the last 200 years, humans have
+                        done more damage to the Earth than our ancestors have in the last seven million years.</p>
+                    <p>This is largely down to the existing false industrial-era notion that the Earth consists of a
+                        pool of unlimited resources for humankind to exploit. Much of what we consume each day
+                        originates from the land, the source of all food and fashion items.</p>
+                    <p>However, the soil's long-term exposure to the chemicals, top-soil disturbance and poison has
+                        detrimental effects on its biodiversity and fertility. Like a drug addict, it cannot perform
+                        without its annual dosage, and its productivity is in freefall, where more drugs are always
+                        needed to match previous harvests' yields.</p>
+                    <p>Farmers, the traditional guardians of nature and soil, are also suffering under the chokehold of
+                        chemical-based farming</p>
+                    <p>Instead of being farmers, caring for the Earth and growing to the specific circumstances of their
+                        land, they have become like chemists in a pharmacy, buying and dispensing an ever-growing dosage
+                        of artificial minerals while at the same time being forced out of business due to rising prices
+                        and falling yields.</p>
+                    <p>So, conventional farming, apart from having a devastating effect on nature, fuels inequality and
+                        poverty in developing countries.</p>
+                    <p>While the consumer is unaware, underserved farmers grow our fruits, vegetables, grains, and
+                        natural fibres for our fast-fashion tastes. Unable to afford expensive nutrients or pesticides,
+                        not knowing an alternative, the once respected and independent farmers are facing diminishing
+                        returns and are forced to leave their lands or starve.</p>
                 </div>
             </div>
-
 
 
         </div>
@@ -132,10 +161,380 @@
     </div>
 </section>
 
-<section>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda atque blanditiis consequuntur cupiditate debitis eius esse eum exercitationem explicabo fugit ipsa maxime nam, nemo omnis optio placeat porro quas repellendus rerum tempore velit veritatis voluptas. Ab, aperiam asperiores aut autem commodi, debitis, deserunt dolor eius esse hic labore magnam nam nesciunt nisi provident quam repudiandae rerum saepe sit vero. Architecto dolor eius exercitationem in nostrum? Corporis eaque inventore natus pariatur voluptatem! Aliquid consequatur cum cupiditate dicta eaque, earum, eos expedita in possimus quaerat quas recusandae unde voluptate. Aliquam autem beatae commodi, culpa, cupiditate dicta dolore dolorum ducimus ea est explicabo facilis impedit laboriosam minus modi nihil quaerat quas reprehenderit tempora ullam. Culpa iusto maxime sapiente sunt vel? Aperiam at consectetur ducimus eligendi facilis harum hic id labore magni, minima nulla omnis optio pariatur quidem, quis quod ratione reprehenderit suscipit tempora veniam veritatis vero voluptatem. Ab ad assumenda autem blanditiis consectetur consequuntur corporis deleniti distinctio ducimus explicabo, inventore modi mollitia pariatur perspiciatis, possimus reprehenderit, similique soluta vitae voluptate voluptatibus. Enim expedita quos sequi? Assumenda blanditiis cumque cupiditate debitis dignissimos ducimus, error et facilis fuga fugiat harum hic ipsa iste labore libero minus neque non nulla omnis quas quos recusandae soluta sunt temporibus, ullam veniam veritatis vero. Architecto, asperiores doloribus ducimus eius fuga in ipsa iusto quis quos similique. Accusantium ad at atque dignissimos eius eligendi excepturi fugit harum ipsam ipsum labore laudantium magni necessitatibus odit optio praesentium rem, sint sit totam vel vero voluptate voluptatum? Corporis, ducimus eligendi magnam minus omnis provident ullam? Corporis distinctio ea expedita, harum iste, maxime necessitatibus nostrum officia, quae quaerat quis ullam velit! Accusantium alias earum facilis modi nihil provident veniam voluptatibus! A alias dignissimos dolorem neque quaerat quisquam repellendus ullam voluptate voluptatibus. Aperiam corporis cumque dolorum itaque perferendis voluptas! Deserunt doloremque exercitationem hic incidunt iste magnam perferendis quam quidem sed! Ab aspernatur atque blanditiis consequatur, consequuntur delectus ducimus ea eum facilis fugit inventore nemo placeat quaerat quasi repellendus? Animi at dicta ea earum et. Accusantium adipisci animi aut cum debitis dolorem doloremque doloribus ducimus enim error excepturi fugiat fugit id, iure labore magnam minus modi molestiae molestias nihil nisi nobis nostrum perferendis perspiciatis porro quas quasi reiciendis rem repellat reprehenderit sed sequi soluta vero. Animi consequatur consequuntur debitis distinctio dolorum eos exercitationem id iusto laborum non nulla obcaecati omnis porro quibusdam quidem recusandae, voluptatum. Deserunt eius, eos non quaerat reiciendis reprehenderit temporibus unde voluptatibus. Adipisci aut culpa cumque cupiditate, dicta dolorem dolores eum exercitationem explicabo impedit inventore labore laudantium maiores optio quasi, quia rem repellendus vel. At autem earum excepturi hic itaque, obcaecati officia possimus repudiandae tempora ut? Consequuntur debitis ex id in. Adipisci amet, atque aut consequuntur culpa delectus deleniti ea eaque eligendi esse eum ex excepturi explicabo facilis fugit illo itaque laboriosam maiores minima molestiae molestias numquam odio officia perferendis provident quas quia quisquam quod recusandae, repellat repellendus sint sit totam ut veritatis vero vitae. Architecto error eum impedit nemo velit veniam voluptate voluptates. Adipisci consectetur consequuntur dicta, eos eveniet fuga maxime natus voluptate! Ab atque debitis delectus eius, magni natus possimus vel. Ab animi aperiam asperiores beatae, consequuntur cum eum excepturi, facere magnam molestias mollitia odio perferendis quas quidem quod saepe tenetur velit? Accusantium dicta dolore eligendi error est eum facilis hic in ipsum iure maiores molestias officiis perferendis praesentium provident, quas sequi veniam. Ad error exercitationem hic maiores nisi praesentium quaerat recusandae? Accusamus accusantium aliquid architecto dolorum, enim excepturi facere itaque, molestias nihil quas quis, quo vitae voluptatem? Corporis dolorem, ducimus est expedita iste, laudantium magni odit qui ratione temporibus tenetur voluptas. Alias assumenda aut delectus ipsam iste labore mollitia provident unde voluptates. Aspernatur est fuga nam nemo non provident. Alias cum ducimus ipsum nesciunt quas quod repellat sed unde velit voluptatem? Harum id possimus quibusdam sint soluta? Aut consectetur dolore, ea est eveniet fugit id illo non porro quasi quidem similique! Amet et nihil odit quos recusandae, repellendus sunt! Ad aliquam dolore, esse harum illo laboriosam libero voluptatibus! Architecto consequuntur doloribus ea eos, esse laudantium nesciunt numquam, porro quaerat qui quidem quos reiciendis, repellat sapiente temporibus. Ab animi architecto aspernatur, consequatur delectus dolor dolores ea fuga incidunt iure labore magni numquam omnis porro quae rem voluptatibus, voluptatum. Cupiditate expedita id in nesciunt similique totam vero vitae voluptatem. Consectetur excepturi fugiat maxime obcaecati! A aut consequatur cum dolor eius eos eveniet, expedita inventore minima nisi provident quaerat qui quia reiciendis rem? Aspernatur aut blanditiis, dolor doloribus ducimus eius fugiat iusto laudantium minus molestiae nobis non quaerat qui quisquam quo! A dicta ea expedita facilis fuga id illo incidunt iusto, laboriosam libero maxime minima neque nulla, officiis perferendis possimus quam quidem quis reiciendis sequi tenetur velit veritatis vero voluptas voluptatibus! Accusamus alias, aut beatae culpa distinctio eaque eius eligendi error eveniet ex explicabo facilis fugiat fugit harum id illo illum ipsam ipsum laborum magnam non odio omnis pariatur possimus quasi quibusdam ratione recusandae repudiandae rerum sed tempore ullam veritatis voluptatibus. Aperiam aspernatur ex officia praesentium! Accusantium aperiam autem commodi debitis distinctio ducimus magni maiores nobis non odit ratione sed, sit, sunt. Fuga iusto molestias non officia rerum! Accusantium culpa exercitationem necessitatibus provident saepe. Accusamus architecto dolores eos exercitationem explicabo fuga illum nostrum officiis quisquam, quos repudiandae soluta, suscipit tempore velit voluptate? Assumenda blanditiis culpa debitis et facere fugiat, illo incidunt nihil quia ratione? Aliquid, aperiam commodi cumque incidunt molestias nihil officiis quibusdam repellat repellendus veritatis? Accusamus ad exercitationem impedit molestias natus nemo officiis quisquam. Cumque debitis eligendi error iste quidem, quo recusandae reiciendis saepe sequi! Accusamus assumenda commodi eum in iure perferendis? Aliquid aut cupiditate earum fugit ipsum iure labore magni minima nihil, nisi quidem quis quos reiciendis repellendus saepe velit voluptas voluptate voluptatem. A amet animi consequatur dolor, ea excepturi harum illo libero, minus neque nostrum odio officiis quibusdam, quisquam quos reiciendis saepe similique suscipit veniam voluptates? Dicta eius modi obcaecati, odit quod similique totam voluptate voluptatem? Aliquid at cum delectus dolorem expedita facere, harum, illo ipsa molestiae numquam obcaecati praesentium quisquam unde voluptas, voluptatum! Atque consectetur consequatur ipsam laboriosam officiis quaerat quam sit vero. At cumque delectus doloribus, esse fugit incidunt ipsum, magnam modi necessitatibus nemo nisi odio optio quas repellendus voluptates? Adipisci cum deleniti enim ex facilis laudantium, quae rerum. At commodi distinctio doloremque maiores odio quaerat, ut vel veritatis! Adipisci at atque beatae consectetur deleniti distinctio esse et eveniet fugit impedit in iste itaque iure magnam magni minus molestiae natus nobis officia provident quis quisquam rem repellat saepe similique, soluta tempora ut vel velit veritatis! Ducimus iste labore nam nobis optio, placeat praesentium quia voluptates. Adipisci eaque eum molestiae perferendis. Consequuntur eligendi illo laudantium maxime minima nobis quidem? Accusantium alias aspernatur beatae cum distinctio doloremque, ipsa maiores nostrum quos voluptatem! Consectetur ducimus ea eum expedita harum in incidunt inventore ipsam ipsum itaque magnam magni nobis obcaecati sed, sit veniam vitae! Animi ducimus esse minima placeat repudiandae sequi similique. Aspernatur, autem consequatur consequuntur corporis debitis distinctio eaque eum expedita fuga harum hic libero non pariatur provident quae qui quia, repellendus repudiandae unde voluptates? Accusamus assumenda autem delectus deserunt distinctio et eveniet exercitationem fugit harum hic illo in inventore itaque minima modi, nam quo, temporibus. Aliquid, asperiores assumenda beatae cum, deleniti dolore eos ex, hic illo illum magni officiis quaerat quasi quibusdam quod repellat rerum sequi similique suscipit tempore. Asperiores est excepturi iure laborum maiores neque perspiciatis provident. Ab accusantium aperiam corporis dicta dolor doloremque esse est excepturi itaque laborum laudantium libero minima nesciunt nobis numquam, officiis provident quod quos reprehenderit saepe sint soluta totam unde vel, voluptatibus. Alias aspernatur beatae inventore laborum minima sapiente, temporibus voluptatem. Aspernatur blanditiis cum, dignissimos dolore ex facere fuga labore laboriosam magni maiores mollitia natus perspiciatis quis, rem rerum sunt tempora veniam. Culpa dignissimos dolore impedit iure magni nulla praesentium sint, soluta. Ab accusamus animi aperiam assumenda consectetur cum delectus dignissimos dolores esse eum eveniet ex fugit hic id illo illum iste itaque minus modi natus nemo, nostrum nulla obcaecati odio odit porro possimus provident quas, quis quisquam quod soluta suscipit tenetur velit vero vitae voluptatibus. Ab adipisci architecto iusto necessitatibus odit omnis velit veritatis? Amet consequuntur deleniti explicabo hic incidunt iusto libero obcaecati totam! Accusantium dicta eaque eveniet illum, quia quisquam sunt voluptates. Commodi consequatur, dignissimos ea ipsam molestias officia porro possimus quaerat rerum vitae! Accusamus aperiam enim facilis, illum iusto labore molestias nisi quas soluta. Ad, aperiam assumenda blanditiis corporis culpa cum cupiditate deserunt dolorum, ea eveniet excepturi incidunt inventore laborum maxime nemo non nostrum numquam odit quibusdam quo repudiandae sit tempore totam veniam voluptatem. Assumenda aut dolor dolorem eaque esse excepturi in iste iusto laudantium magnam maxime nam, neque nobis non obcaecati quam sint sit, tempora tempore, totam. Aliquam asperiores assumenda aut cum debitis, dolores ducimus ea enim et ex explicabo iusto laborum libero maxime minima natus nihil omnis quam quas quidem quo rem repudiandae sapiente, similique, temporibus unde voluptatibus. Adipisci amet, animi error excepturi exercitationem illum, itaque nihil numquam placeat porro sed sequi voluptas voluptatem. Ab blanditiis eius est harum laboriosam molestias mollitia perferendis quis quos, soluta? Ab expedita illo nemo, odio perspiciatis rerum tempore. Assumenda, placeat, quasi? A assumenda atque aut blanditiis commodi consequuntur corporis culpa debitis dignissimos earum et eum eveniet facilis fugiat, fugit illum ipsam libero magni natus officia pariatur perspiciatis porro quidem quis, quisquam ratione rerum sapiente similique soluta tempora tempore temporibus ullam velit! Aperiam asperiores cupiditate dolorem inventore ipsam molestias sunt, suscipit tempore voluptas voluptates? Adipisci alias aspernatur at culpa cumque delectus dignissimos dolor doloremque earum eos eveniet explicabo facere fugit inventore ipsa iste maiores, minima mollitia neque nesciunt officiis possimus provident quam quia ratione, repudiandae rerum similique, soluta sunt suscipit tenetur velit vero voluptate. Accusamus ad aliquam aperiam asperiores cum deleniti dolore ducimus eius eos ex impedit itaque iure laborum libero magni neque nihil non officiis porro provident quas, qui quia repudiandae rerum saepe sed sequi suscipit tempora velit voluptas? Consequuntur, corporis facilis fuga hic nobis numquam quam repellendus voluptatibus. Corporis deleniti dignissimos, doloremque error ex, impedit itaque laboriosam maiores molestiae nam necessitatibus nemo nisi nulla omnis possimus repudiandae saepe sed sint, totam veniam voluptate voluptatem voluptates voluptatum! Commodi ducimus eaque eveniet harum ipsam laborum quaerat voluptates voluptatibus. A ducimus eaque facere molestias perferendis, qui quibusdam vero voluptatem! Aliquam aspernatur assumenda aut, deserunt doloremque esse est excepturi iure labore modi numquam omnis porro quisquam rerum sint totam veritatis. Alias animi assumenda facere itaque tempora velit. Aliquam asperiores aut deserunt doloribus dolorum ducimus facilis ipsam ipsum laborum, laudantium libero magnam minima nisi nobis nulla officiis praesentium quaerat quas quidem sapiente sequi suscipit, velit! At ipsam nemo officiis optio quidem quos velit vero? Hic qui quidem saepe. Animi facilis ipsam, itaque mollitia perspiciatis ratione voluptas. Ab ad amet aspernatur, autem corporis cumque dolores eligendi error est eum explicabo facilis, fugiat impedit ipsa ipsum labore laborum molestiae mollitia necessitatibus neque nesciunt nostrum odio optio perferendis perspiciatis praesentium quia quisquam reprehenderit saepe sit soluta suscipit ullam, veniam. Assumenda, at cupiditate deleniti esse et illum impedit ipsam magnam minus mollitia nam, necessitatibus neque obcaecati optio perspiciatis porro quis saepe sunt vitae voluptate? Accusamus alias architecto, cum error labore nam nobis possimus quasi ratione temporibus, tenetur voluptates. A aliquam aliquid aperiam aut cum dolorem eius est facilis, illo iusto magni nostrum officiis praesentium ratione repellendus reprehenderit tenetur vel voluptatem? Doloribus earum eius eos illum inventore, ipsa ipsum maiores mollitia, nobis odit pariatur quam sunt velit, voluptas voluptatum! At blanditiis debitis dicta dolores esse minus optio quibusdam quo. Dicta fugit hic magnam, magni molestiae quas! Commodi explicabo harum laborum maxime nam odio quasi sit tempore, ut voluptas? Aspernatur dignissimos dolorum incidunt magni nihil optio possimus, sint veniam vitae voluptates. Asperiores at, autem delectus dicta dolorem dolores enim error et exercitationem minus nam numquam possimus, quae quam quasi quis similique soluta sunt unde, vitae. Autem corporis, nostrum! Animi consectetur cupiditate eius, fuga odit vel. Accusamus culpa dolore earum eum numquam, recusandae suscipit. A aliquid corporis debitis dolor doloribus et, impedit itaque iusto laudantium molestiae nam numquam optio pariatur porro provident quam, reiciendis rem sint voluptas voluptate. Atque eligendi error itaque similique?
+<section class="words">
+    <div class="words-container container">
+        <div class="words_item">Did you know that YOU have the power to end this downward spiral?</div>
+        <div class="words_item hidden">There is no time to waste.</div>
+        <div class="words_item hidden">By supporting Farnico as a customer, follower, donor or volunteer, you become
+            part of our GLOBAL REVOLUTION
+        </div>
+        <div class="words_item hidden">Support our MISSION</div>
+    </div>
 </section>
 
+<section class="our-mission">
+    <div class="our-mission-top">
+        <div class="container">
+            <div class="our-mission__absolute">
+                <img src="assets/img/mission_back.png" class="our-mission__bg--back our-mission__item">
+                <div class="our-mission__bg--top top-mission our-mission__item">
+                    <h2 class="top-mission__title">our mission</h2>
+                    <p class="top-mission__descr">To BENEFIT NATURE & HUMANITY by REVOLUTIONISING Global Food &
+                        Fashion</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="our-mission-bottom">
+        <div class="container">
+            <div class="our-mission__card mission-card">
+                <span class="mission-card__text mission-card-anim">
+                    “Ending the chokehold of chemical farming and changing our consumerist behaviours is central to Farnico's ideology.”
+                </span>
+                <img src="assets/img/ceo_card.png" alt="" class="mission-card__image mission-card-anim">
+                <div class="mission-card__position mission-card-anim">Sergej Nicolaisen, Farnico Founder</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="how-do">
+    <div class="container how-do-container">
+        <h2 class="how-do__title">HOW DO WE DO IT?</h2>
+        <div class="how-do__bottom bottom-how-do">
+            <a href="#" class="bottom-how-do__link">Meet our Team
+                <div class="bottom-how-do__arrow arrow-down">
+                    <img src="assets/img/arrow-down.svg" alt="">
+                </div>
+            </a>
+
+            <a href="#" class="bottom-how-do__link">Meet our Team
+                <div class="bottom-how-do__arrow arrow-down">
+                    <img src="assets/img/arrow-down.svg" alt="">
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="lets-take">
+    <div class="lets-take-container container">
+        <p class="lets-take__descr">Together with farmers, Farnico transforms conventional farms into organic hubs that
+            feed and clothe the world</p>
+        <h2 class="lets-take__title">Let's take a look</h2>
+    </div>
+</section>
+
+<section class="organic">
+    <div class="organic-container container">
+        <h2 class="organic__title">Organic Agriculture</h2>
+        <a href="#" class="organic__link">
+            view organic agriculture page
+            <div class="arrow-down">
+                <img src="assets/img/arrow-down--black.svg" alt="">
+            </div>
+        </a>
+
+        <div class="organic__item">
+            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.82227 19.8223C4.88672 19.8223 7.44531 18.7188 9.03711 17.6348C9.20312 17.5273 9.33008 17.4883 9.45703 17.4883C9.65234 17.5078 9.84766 17.5273 10.043 17.5273C16.4688 17.5273 20.8828 13.7676 20.8828 9.1875C20.8828 4.57812 16.2832 0.857422 10.5215 0.857422C4.75977 0.857422 0.150391 4.57812 0.150391 9.1875C0.150391 12.127 1.9668 14.7246 4.86719 16.2578C5.01367 16.3359 5.0625 16.4727 4.98438 16.6191C4.50586 17.4199 3.67578 18.3672 3.32422 18.8164C2.95312 19.2754 3.13867 19.8223 3.82227 19.8223Z"
+                      fill="#4A5668"/>
+            </svg>
+            <div class="organic__item--hover">
+                Anything that is applied to the soil uses only ingredients found in nature e.g. compost or manure
+            </div>
+        </div>
+
+        <div class="organic__item">
+            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.82227 19.8223C4.88672 19.8223 7.44531 18.7188 9.03711 17.6348C9.20312 17.5273 9.33008 17.4883 9.45703 17.4883C9.65234 17.5078 9.84766 17.5273 10.043 17.5273C16.4688 17.5273 20.8828 13.7676 20.8828 9.1875C20.8828 4.57812 16.2832 0.857422 10.5215 0.857422C4.75977 0.857422 0.150391 4.57812 0.150391 9.1875C0.150391 12.127 1.9668 14.7246 4.86719 16.2578C5.01367 16.3359 5.0625 16.4727 4.98438 16.6191C4.50586 17.4199 3.67578 18.3672 3.32422 18.8164C2.95312 19.2754 3.13867 19.8223 3.82227 19.8223Z"
+                      fill="#4A5668"/>
+            </svg>
+            <div class="organic__item--hover">
+                Cows, sheep, or birds at our farms are the number one source of organic fertiliser: Manure, compost and
+                biohumus
+            </div>
+        </div>
+
+        <div class="organic__item">
+            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.82227 19.8223C4.88672 19.8223 7.44531 18.7188 9.03711 17.6348C9.20312 17.5273 9.33008 17.4883 9.45703 17.4883C9.65234 17.5078 9.84766 17.5273 10.043 17.5273C16.4688 17.5273 20.8828 13.7676 20.8828 9.1875C20.8828 4.57812 16.2832 0.857422 10.5215 0.857422C4.75977 0.857422 0.150391 4.57812 0.150391 9.1875C0.150391 12.127 1.9668 14.7246 4.86719 16.2578C5.01367 16.3359 5.0625 16.4727 4.98438 16.6191C4.50586 17.4199 3.67578 18.3672 3.32422 18.8164C2.95312 19.2754 3.13867 19.8223 3.82227 19.8223Z"
+                      fill="#4A5668"/>
+            </svg>
+            <div class="organic__item--hover">
+                Artificial chemicals found in fertilisers or poisons found in pesticides used in conventional farming
+                are prohibited
+            </div>
+        </div>
+
+        <div class="organic__item">
+            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.82227 19.8223C4.88672 19.8223 7.44531 18.7188 9.03711 17.6348C9.20312 17.5273 9.33008 17.4883 9.45703 17.4883C9.65234 17.5078 9.84766 17.5273 10.043 17.5273C16.4688 17.5273 20.8828 13.7676 20.8828 9.1875C20.8828 4.57812 16.2832 0.857422 10.5215 0.857422C4.75977 0.857422 0.150391 4.57812 0.150391 9.1875C0.150391 12.127 1.9668 14.7246 4.86719 16.2578C5.01367 16.3359 5.0625 16.4727 4.98438 16.6191C4.50586 17.4199 3.67578 18.3672 3.32422 18.8164C2.95312 19.2754 3.13867 19.8223 3.82227 19.8223Z"
+                      fill="#4A5668"/>
+            </svg>
+            <div class="organic__item--hover">
+                Soil health is paramount, and annual rotation of the crops grown must be carried out
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="our-process">
+    <div class="container our-process-container">
+        <h2 class="our-process__title">OUR PROCESS</h2>
+        <div class="swiper our-process-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="our-process__slide process-slide">
+                        <div class="process-slide__content">
+                            <h3 class="process-slide__title">WE PARTNER</h3>
+                            <p class="process-slide__text">
+                                Farnico parters with good, honest, and hardworking
+                                underserved farmers in Tajikistan to become a reliable
+                                business partner in growing organic crops, like cotton.
+                                We give them a chance to become profitable and save
+                                their earth from the dangers of chemical farming.
+                            </p>
+                        </div>
+                        <img src="assets/img/slide_1.png" alt="" class="process-slide__image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="our-process__slide process-slide">
+                        <div class="process-slide__content">
+                            <h3 class="process-slide__title">WE SEARCH</h3>
+                            <p class="process-slide__text">
+                                Farnico's agronomists all over the country train
+                                and recruit farmers to become a part of the Farnico
+                                Farmer Family to share the benefits of organic agriculture.
+                            </p>
+                        </div>
+                        <img src="assets/img/slide_2.png" alt="" class="process-slide__image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="our-process__slide process-slide">
+                        <div class="process-slide__content">
+                            <h3 class="process-slide__title">WE EDUCATE</h3>
+                            <p class="process-slide__text">
+                                Farnico employs and invites specialists on organic
+                                agriculture from around the World to educate farmers
+                                on the latest technology in organic agriculture.
+                            </p>
+                        </div>
+                        <img src="assets/img/slide_3.png" alt="" class="process-slide__image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="our-process__slide process-slide">
+                        <div class="process-slide__content">
+                            <h3 class="process-slide__title">WE SOURCE</h3>
+                            <p class="process-slide__text">
+                                Apart from educating the farmers on how to provide for themselves
+                                following organic principles, the Farnico team sources
+                                other top-notch inputs accepted by organic standards.
+                                A good example is organic cotton seeds, which Farnico
+                                first sends to Europe for a GMO-free confirmation.
+                            </p>
+                        </div>
+                        <img src="assets/img/slide_4.png" alt="" class="process-slide__image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="our-process__slide process-slide">
+                        <div class="process-slide__content">
+                            <h3 class="process-slide__title">WE CERTIFY</h3>
+                            <p class="process-slide__text">
+                                Farnico certifies farmers with organic and
+                                FairTrade certificates and all of
+                                Farnico's gins are GOTS certified too!
+                            </p>
+                        </div>
+                        <img src="assets/img/slide_5.png" alt="" class="process-slide__image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="our-process__slide process-slide">
+                        <div class="process-slide__content">
+                            <h3 class="process-slide__title">We Help</h3>
+                            <p class="process-slide__text">
+                                Farnico creates a community where farmers and their families feel supported.
+                            </p>
+                        </div>
+                        <img src="assets/img/slide_6.png" alt="" class="process-slide__image">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="our-process__slide process-slide">
+                        <div class="process-slide__content">
+                            <h3 class="process-slide__title">WE SUPPLY</h3>
+                            <p class="process-slide__text">
+                                Finally, Farnico acts as the buyer and processor
+                                and brings the farmer's organic harvest to market.
+                            </p>
+                        </div>
+                        <img src="assets/img/slide_7.png" alt="" class="process-slide__image">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section class="farmers-grow">
+    <div class="farmers-grow-container container">
+        <h2 class="farmers-grow__title">Farmers grow Organic cotton using our technology</h2>
+        <p class="farmers-grow__descr">Farnico then buys the seed cotton directly from farmers and processes it at our
+            certified cotton gins</p>
+        <div class="farmers-grow__content content-farmers-grow">
+            <img src="assets/img/farmers-grow__image.jpg" alt="" class="content-farmers-grow__image">
+            <div class="content-farmers-grow__card card--farmers">
+                <div class="card--farmers__title">100% Organic Cotton</div>
+                <div class="card--farmers__text">How much organic cotton is left: <span>23040</span>kg</div>
+                <div class="card--farmers__bottom">leave application</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="strategy">
+    <div class="container strategy-container">
+        <h2 class="strategy__title">FARNICO'S FUTURE STRATEGY</h2>
+        <p class="strategy__descr">(Choose an action)</p>
+        <div class="strategy__images image-strategy">
+            <div class="image-strategy__item">
+                <img src="assets/img/strategy_1.png" alt="">
+                <span>Support Us</span>
+            </div>
+
+            <div class="image-strategy__item">
+                <img src="assets/img/strategy_2.png" alt="">
+                <span>Farnico Fashion</span>
+            </div>
+            <div class="image-strategy__item">
+                <img src="assets/img/strategy_3.png" alt="">
+                <span>Farnico Food</span>
+            </div>
+            <div class="image-strategy__item">
+                <img src="assets/img/strategy_4.png" alt="">
+                <span>Volunteer</span>
+            </div>
+        </div>
+        <a href="#" class="strategy__link">Contact Us</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-container">
+        <div class="footer__left">
+            <div class="footer__left__image">
+                <object data="assets/img/logo.svg" type="image/svg+xml">
+                    <img src="assets/img/logo.svg" alt="Farnico" class="header__logo logo">
+
+                </object>
+                <span>Contact Us  |  Privacy Policy</span>
+            </div>
+
+
+            <span class="copy">©2021 Farnico International Ltd.</span>
+        </div>
+        <div class="footer__contacts contacts-footer">
+            <h2 class="contacts-footer__title">Farnico International Ltd</h2>
+            <ul class="contacts-footer__list">
+                <li class="contacts-footer__item"><a href="" class="contacts-footer__link"><img src="assets/img/footer_adress.svg" alt="">71-75 Shelton Street London WC2H 9JQ, UK</a></li>
+                <li class="contacts-footer__item"><a href="" class="contacts-footer__link"><img src="assets/img/footer_mail.svg" alt="">contact@farnico.com</a></li>
+                <li class="contacts-footer__item"><a href="" class="contacts-footer__link"><img src="assets/img/footer_phone.svg" alt="">+44 2081 870 501</a></li>
+            </ul>
+        </div>
+        <div class="footer__contacts contacts-footer">
+            <h2 class="contacts-footer__title">Farnico Tajikistan LLC</h2>
+            <ul class="contacts-footer__list">
+                <li class="contacts-footer__item"><a href="" class="contacts-footer__link"><img src="assets/img/footer_adress.svg" alt="">Ahmadi Donish 65/27, Shohmansur 734024, Dushanbe, Tajikistan</a></li>
+                <li class="contacts-footer__item"><a href="" class="contacts-footer__link"><img src="assets/img/footer_mail.svg" alt="">contact@farnico.com</a></li>
+                <li class="contacts-footer__item"><a href="" class="contacts-footer__link"><img src="assets/img/footer_phone.svg" alt="">+992 555 554 029</a></li>
+            </ul>
+        </div>
+
+
+
+    </div>
+</footer>
+
+
+<svg width="0" height="0" viewBox="0 0 599 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="mask0_32_315" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="599" height="480">
+        <clipPath id="farmers-grow">
+            <path d="M112.475 348.396C112.475 348.396 129.509 363.605 210.896 444.715C292.283 525.825 383.134 444.715 404.9 422.747C426.666 400.78 467.36 359.38 528.873 298.547C590.386 237.716 611.176 182.271 592.249 139.182C573.322 96.0925 504.841 75.8172 438.022 91.5472C364.85 108.773 296.992 111.246 240.233 47.6136C168.591 -32.7055 40.4163 -9.50977 7.29346 102.861C-25.8294 215.233 63.2632 298.547 112.475 348.396Z"
+                  fill="#F9F9F9"/>
+        </clipPath>
+    </mask>
+    <g mask="url(#mask0_32_315)">
+        <g style="mix-blend-mode:multiply">
+            <rect x="-10.8184" y="-0.145996" width="677.455" height="480" fill="#C4C4C4"/>
+        </g>
+    </g>
+</svg>
+<svg width="0" height="0" viewBox="0 0 1196 635" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <clipPath id="forslide">
+        <path opacity="0.3"
+              d="M1196 366.822C1196 38.5333 406.711 -28.6138 224.26 9.62437C-180.132 94.9612 24.3133 498.327 350.226 591.591C572.347 655.154 1196 695.112 1196 366.822Z"
+              fill="#DED4C0" style="transform: translate(60px, 110px);"/>
+    </clipPath>
+</svg>
+<svg width="0" height="0" viewBox="0 0 1005 827" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <g filter="url(#filter0_d_32_233)">
+        <clipPath id="mission-top">
+            <path d="M924.067 254.217C923.616 196.962 860.708 130.695 747.679 137.365C620.496 144.871 481.6 100.958 365.514 50.8029C246.004 -0.830775 140.706 40.1106 105.646 84.4534C67.2047 133.071 67.2014 223.789 147.087 384.779C226.973 545.769 306.214 626.165 394.667 667.463C483.121 708.761 569.031 698.012 650.094 641.215C706.772 601.502 742.15 533.459 798.995 448.438C869.982 342.263 924.719 337.017 924.067 254.217Z"
+                  fill="#DCDCE8" style="transform: translate(-60px, -10px);"/>
+        </clipPath>
+    </g>
+    <defs>
+        <filter id="filter0_d_32_233" x="0.604492" y="0.724487" width="1003.47" height="825.703"
+                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                           result="hardAlpha"/>
+            <feOffset dy="54"/>
+            <feGaussianBlur stdDeviation="40"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_32_233"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_32_233" result="shape"/>
+        </filter>
+    </defs>
+
+</svg>
+<svg width="0" height="0" viewBox="0 0 422 909" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <clipPath id="card-left">
+        <path d="M307.128 352.63C105.284 270.166 18.7385 83.5579 0.696361 0.561899L-0.71878 908.216C364.151 776.009 559.433 455.71 307.128 352.63Z"
+              fill="url(#paint0_linear_32_364)"/>
+    </clipPath>
+    <defs>
+        <linearGradient id="paint0_linear_32_364" x1="355.5" y1="425.309" x2="-48.5" y2="685.809"
+                        gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DCDCE8"/>
+            <stop offset="1" stop-color="#DCDCE8" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+</svg>
+<svg width="0" height="0" viewBox="0 0 355 286" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <clipPath id="card-right">
+        <path opacity="0.8"
+              d="M66.6151 207.17C66.6151 207.17 76.7119 216.2 124.953 264.359C173.195 312.518 227.047 264.359 239.948 251.316C252.85 238.272 276.971 213.691 313.432 177.572C349.894 141.453 362.217 108.533 350.998 82.9488C339.779 57.3643 299.188 45.3258 259.581 54.6656C216.209 64.8936 175.987 66.3618 142.343 28.58C99.8774 -19.1094 23.9028 -5.33699 4.26949 61.3834C-15.3639 128.104 37.4452 177.572 66.6151 207.17Z"
+              fill="#DCDCE8"/>
+    </clipPath>
+
+</svg>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
